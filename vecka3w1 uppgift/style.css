@@ -32,6 +32,7 @@ header{
 }
 
 .card h3{
+    text-align: center;
     color: white;
     background-color: #c86240;
 }
