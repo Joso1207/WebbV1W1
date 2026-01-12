@@ -9,7 +9,7 @@
 
 .bg-hero { background-color: #4074c8; }
 .bg-event { background-color: #c86240; }
-.bg-footer { background-color: #c86240; }
+.bg-footer { background-color: midnightblue; }
 .text-light { color: #ffffff; }
 .text-dark { color: #1f2937; }
 
@@ -41,6 +41,15 @@ header{
 .nav a {
     color: #ffffff;
     margin:5px
+}
+
+footer{
+    display:flex;
+    flex-direction:row;
+}
+
+footer a{
+    color: white;
 }
 
 
