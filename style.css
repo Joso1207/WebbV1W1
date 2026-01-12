@@ -1,12 +1,21 @@
-.bg-header { background-color: #2563eb; }
+.bg-header { background-color: #2563eb; 
+}
+
 .bg-hero { background-color: #4074c8; }
 .bg-event { background-color: #c86240; }
 .bg-footer { background-color: #c86240; }
 .text-light { color: #ffffff; }
 .text-dark { color: #1f2937; }
 
+
+header{
+    border: 2px solid black;
+}
+
+
 .nav{
     display: flex;
+
 }
 .nav a {
     color: #ffffff;
