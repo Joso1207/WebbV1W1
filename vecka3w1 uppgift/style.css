@@ -69,3 +69,11 @@ footer a{
     color: white;
     text-align: center;
 }
+
+@media (max-width: 600px) {
+    .event-container {
+        flex-direction: row;
+        flex-basis:20%;
+        flex-wrap:wrap;
+    }
+}
