@@ -10,6 +10,7 @@
 
 header{
     border: 2px solid black;
+    margin-bottom: 20px;
 }
 
 
@@ -22,4 +23,18 @@ header{
     margin:5px
 }
 
+.hero-container {
+    background-color: lightskyblue;
+    border: 2px solid black;
+    padding: 25px;
+}
 
+.hero-header {
+    color: white;
+    text-align: center;
+}
+
+#hero-p {
+    color: white;
+    text-align: center;
+}
