@@ -16,6 +16,7 @@
 
 header{
     border: 2px solid black;
+    margin-bottom: 20px;
 }
 
 .event-container{
@@ -53,3 +54,12 @@ footer a{
 }
 
 
+.hero-header {
+    color: white;
+    text-align: center;
+}
+
+#hero-p {
+    color: white;
+    text-align: center;
+}
