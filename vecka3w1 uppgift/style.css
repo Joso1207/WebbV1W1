@@ -20,8 +20,8 @@ header{
 }
 
 .event-container{
-    display:flex;
-    flex-direction: column;
+    display:grid;
+    grid-template-columns: auto;
     border: 1px groove #1f2937;
     padding: 2px;
 }
@@ -37,6 +37,10 @@ header{
     background-color: #c86240;
 }
 
+.card p{
+    font-size: larger;
+    padding-top: 5px;
+}
 
 .nav{
     display: flex;
@@ -48,8 +52,11 @@ header{
 }
 
 footer{
+    position: absolute;
+    bottom: 0px;
     display:flex;
     flex-direction:row;
+    width: 100%;
 }
 
 footer a{
@@ -71,3 +78,18 @@ footer a{
     color: white;
     text-align: center;
 }
+
+@media (600px < width < 900px ){
+    .event-container{
+        grid-template-columns: 50% 50%;
+    }
+
+}
+
+@media (width > 900px ){
+    .event-container{
+        grid-template-columns: calc(100% / 3) calc(100% / 3) calc(100% / 3);
+
+    }
+}
+    
