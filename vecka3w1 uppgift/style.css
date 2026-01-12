@@ -53,6 +53,11 @@ footer a{
     color: white;
 }
 
+.hero-container {
+    background-color: lightskyblue;
+    border: 2px solid black;
+    padding: 25px;
+}
 
 .hero-header {
     color: white;
